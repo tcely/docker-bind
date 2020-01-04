@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM tcely/alpine-aports
 
 COPY entrypoint.sh /
 EXPOSE 53 53/udp
